@@ -1,0 +1,73 @@
+/* Sheet */
+:root{
+  /* Colors */
+  --white: #FEFEFE;
+  --black: #050505;
+  --very-dark-orange: #443729;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+}
+section{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: auto;
+  display:flex;
+  justify-content: center;
+}
+.card{
+  padding: 8px 0;
+  width: 90%;
+  background-image: url(https://i.ibb.co/L0xF2q3/Low-poly-grid-haikei-bg.png);
+  border-radius: 10px;
+  border: 2px solid var(--very-dark-orange);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+}
+.card__profile{
+  margin-bottom: 15px;
+  width: 80%;
+  border-radius: 10px;
+  border: 1px solid var(--very-dark-orange);
+}
+h1{
+  font-size: 2.8rem;
+  margin-bottom: 8px;
+}
+p{
+  font-size: 1.8rem;
+  max-width: 90%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.social-media{
+  width: 80%;
+  max-width: 400px;
+  height: 40px;
+  background: var(--white);
+  border-radius: 10px;
+  border: 1px solid var(--black);
+  overflow: hidden;
+}
+.social-media__list{
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.social-media__list-item{
+  list-style: none;
+}
+.social-media__item-anchor>img{
+  width: 24px;
+}
